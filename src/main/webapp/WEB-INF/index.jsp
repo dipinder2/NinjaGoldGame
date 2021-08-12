@@ -41,7 +41,7 @@
 			<button class="btn btn-primary">find gold!</button>
 		</form>
 	</div>
-	<div style="width:500px;height:100px">
+	<div style="width:500px;height:100px;cursor:bottom;overflow-y:scroll">
 		<c:forEach var="action" items="${actions}">
 			<p><c:out value="${action}"></c:out></p>		
 		
